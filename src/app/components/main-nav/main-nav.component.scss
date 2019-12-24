@@ -1,0 +1,36 @@
+.sidenav-container {
+  height: 100%;
+  text-align: center;
+  
+ }
+
+.sidenav {
+  width: 200px;
+  //background-color: #00796B;
+  background-color: #c5e6e2a6;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+  background-color: #009688;
+  color: white;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #009688;
+}
+
+.spacer {
+  flex: auto;
+
+}
+.mat-toolbar a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  
+}
